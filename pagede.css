@@ -19,6 +19,13 @@ html, body{
 
 }
 
+@media only screen and (max-width:500px){
+  .wrapper{
+     flex-direction: column ;
+
+  }
+}
+
 
 .myDiv1{
    display:flex;
@@ -111,6 +118,7 @@ table{
     font-family: 'Ubuntu', sans-serif;
     order:0;
     width: 45%;
+    min-width:180px;
 
 
 }
